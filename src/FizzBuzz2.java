@@ -3,16 +3,14 @@ public class FizzBuzz2 {
       String outputStr = "";
       for (int i = 1; i <= 100; i++) {
          if (i%3==0) {
-            System.out.println(i + " Fizz");
+            System.out.println("Fizz");
             if (i%5 == 0) {
-               System.out.print(i + " " );
-               System.out.println("FizzBuzz " );
+               System.out.println("FizzBuzz" );
             }
          } else if (i%5==0) {
-            System.out.println(i + " Buzz");
+            System.out.println("Buzz");
             if (i%3==0 ) {
-               System.out.print(i + " " );
-               System.out.println("FizzBuzz " );
+               System.out.println("FizzBuzz" );
             }
          } else {
             System.out.println(Integer.toString(i));
