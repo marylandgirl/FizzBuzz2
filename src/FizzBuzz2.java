@@ -9,7 +9,7 @@ public class FizzBuzz2 {
             }
             System.out.println(outputStr);
          } else if (i%5==0) {
-            outputStr = "Fizz";
+            outputStr = "Buzz";
             if (i%3==0 ) {
                outputStr = "FizzBuzz";
             }
