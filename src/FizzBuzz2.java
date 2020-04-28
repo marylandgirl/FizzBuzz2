@@ -3,17 +3,20 @@ public class FizzBuzz2 {
       String outputStr = "";
       for (int i = 1; i <= 100; i++) {
          if (i%3==0) {
-            System.out.println("Fizz");
+            outputStr = "Fizz";
             if (i%5 == 0) {
-               System.out.println("FizzBuzz" );
+               outputStr = "FizzBuzz";
             }
+            System.out.println(outputStr);
          } else if (i%5==0) {
-            System.out.println("Buzz");
+            outputStr = "Fizz";
             if (i%3==0 ) {
-               System.out.println("FizzBuzz" );
+               outputStr = "FizzBuzz";
             }
+            System.out.println(outputStr);
          } else {
-            System.out.println(Integer.toString(i));
+            outputStr = Integer.toString(i);
+            System.out.println(outputStr);
          }
       }
    }
